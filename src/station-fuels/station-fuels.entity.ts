@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, OneToMany, ManyToOn
 
 import { Fuel } from 'src/fuels/fuel.entity';
 import { Station } from 'src/stations/station.entity';
-import { type } from 'os';
+
 
 @Entity()
 export class StationFuels {
